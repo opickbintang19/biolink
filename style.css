@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+p{
+    margin: 0;
+}
+img{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    align-items: center;
+    display: block;
+    border-radius: 50%;
+}
+
+.profile-name{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.profile-link{
+    border: 2px solid black;
+    border-color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+}
+
+.detail{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+*{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    font-weight: 900;
+    color: white;
+    
+    transition:ease-in 0.3s;
+}
+
+.fb:hover{
+    color: #4267B2;
+    background: white;
+}
+
+.tw:hover{
+    color: rgba(26, 172, 209, 0.815);
+    background: white;
+}
+
+.linkedin:hover{
+    color: darkcyan;
+    background: white;
+}
+
+.blog:hover{
+    color: orange;
+    background: white;
+}
+
+.gmail:hover{
+    color: red;
+    background: white;
+}
+
+.github:hover{
+    color: #4078c0;
+    background: white;
+}
